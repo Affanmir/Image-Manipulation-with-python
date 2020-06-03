@@ -303,11 +303,7 @@ class PointerList(MyList):
 
             self.head.data = value
 
-        # u = self.head
-        # for x in range(i-1):
-        #     u = u.right
-        # u.value = value
-        # Ensure bounds.
+      
 
     def __iter__(self) -> MyListIterator:
         '''Returns an iterator that allows iteration over this list.
@@ -652,9 +648,4 @@ def apply_mask(src: MyImage, maskfile: str, average: bool = True) -> MyImage:
     return copy
 
 
-# verycool=MyImage((100,100),False)
-# verycool = verycool.open(r'C:\Users\Owner\Desktop\DSII REP\cs-201-spring-20-hw-1-cs201-s20-grave-turkeys\images\cs-logo.png.',False)
-# verycool=apply_mask(verycool,r'C:\Users\Owner\Desktop\DSII REP\cs-201-spring-20-hw-1-cs201-s20-grave-turkeys\masks\mask-blur.txt',True)
-# verycool=apply_mask(verycool,r'C:\Users\Owner\Desktop\DSII REP\cs-201-spring-20-hw-1-cs201-s20-grave-turkeys\masks\mask-sobel-y.txt',True)
-# #verycool=apply_mask(verycool,r'C:\Users\Owner\Desktop\DSII REP\cs-201-spring-20-hw-1-cs201-s20-grave-turkeys\masks\mask-sobel-x.txt',True)
-# verycool.show()
+
